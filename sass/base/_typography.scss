@@ -1,0 +1,92 @@
+.hero-section{
+    .introduction{
+        h1{
+            font-size: 3rem;
+            color:$white;
+        }
+        p{
+            font-size: 1.6rem;
+            color:$white;
+        }
+        #typed{
+            font-size: 1.6rem;
+            color:$white;
+        }
+        .scroll-btn{
+            font-size: 1.6rem;
+            color:$white;
+        }
+    }
+}
+
+.about-section{
+    color: $black;
+    h1{
+        color:$blackAlpha;
+        font-size: 3rem;
+    }
+    .content-wrapper{
+        .img-container{
+        p{
+        font-size: 1.4rem;
+        color:$blackAlpha;
+        font-family: 'Freehand', cursive;
+        }
+        }
+        .text-container{
+            p{  font-size: 1.6rem;
+                line-height: 150%;
+                }
+        }
+    }
+}
+
+.projects-section{
+    color: $black;
+    h1{ color:$blackAlpha;
+        font-size:3rem;
+    }
+    .project{
+        font-size: 1.4rem;
+        line-height: 150%;
+        h2{
+            color:$blackAlpha;
+        }
+        &__tags{
+            span{
+                font-size: 1rem;
+                font-weight: 700;
+                color: $main;
+            }
+        }
+    }
+}
+
+.skills-section{
+    color: $black;
+    h1{
+        color:$blackAlpha;
+        font-size: 3rem;
+    }
+
+    .skill-container{
+        p{
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.contact-section{
+    color: $black;
+    h1{
+        color:$blackAlpha;
+        font-size: 3rem;
+    }
+    h2{
+        font-size:2rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+}

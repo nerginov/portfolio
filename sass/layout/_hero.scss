@@ -1,0 +1,26 @@
+.hero-section{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $main;
+    .introduction{
+        text-align: center;
+        
+       h1{
+        margin-bottom: 1rem;
+       }
+       p{
+        background-color: $whiteAlpha;
+       }
+       #typed{
+        background-color: $whiteAlpha;
+       }
+    }
+    img{
+        margin-top: -5rem;
+        max-width: 20rem;
+    }
+}
