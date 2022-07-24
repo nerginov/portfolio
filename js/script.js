@@ -19,6 +19,9 @@
   //creating observer with default options(omitted)
 let observer = new IntersectionObserver((entries)=>{
   entries.forEach(entry=>{
+    if(entry.isIntersecting && entry.target.classList.contains('project--4')){
+     entry.target.classList.add('slideInBottom')
+    }
     if(entry.isIntersecting && entry.target.classList.contains('project--3')){
      entry.target.classList.add('slideInRight')
     }
@@ -61,6 +64,13 @@ projectsSection.addEventListener('click', (e)=>{
   break;
   case e.target.classList.contains('arrowSquare-icon--3'):
     window.open('https://nerginov.github.io/url-shortener/', '_blank')
+    break;
+
+  case e.target.classList.contains('github-icon--4'):
+    window.open('https://github.com/nerginov/World-Countries', '_blank')
+  break;
+  case e.target.classList.contains('arrowSquare-icon--4'):
+    window.open('https://nerginov.github.io/World-Countries/', '_blank')
     break;
   }
   })
