@@ -251,8 +251,8 @@ body {
     margin-bottom: 10rem;
   }
   .about-section .content-wrapper {
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
   .about-section .content-wrapper .img-container {
     margin-bottom: 10rem;
@@ -263,8 +263,8 @@ body {
 }
 @media only screen and (min-width: 1440px) {
   .about-section .content-wrapper {
-    margin-left: 35rem;
-    margin-right: 35rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
   }
 }
 .projects-section {
